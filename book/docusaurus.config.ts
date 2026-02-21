@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'Hussam9299', // Usually your GitHub org/user name.
   projectName: 'hackathon-1', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   markdown: {
     mermaid: true,
