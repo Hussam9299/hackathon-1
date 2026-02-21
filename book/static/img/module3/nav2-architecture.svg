@@ -1,0 +1,59 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .component {
+      stroke: #333;
+      stroke-width: 2;
+      fill: #FFC300;
+      rx: 10;
+      ry: 10;
+    }
+    .server {
+      stroke: #333;
+      stroke-width: 2;
+      fill: #C70039;
+      rx: 10;
+      ry: 10;
+    }
+    .text {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      text-anchor: middle;
+      fill: #fff;
+    }
+    .label {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      text-anchor: middle;
+      fill: #333;
+    }
+    .arrow {
+      stroke: #333;
+      stroke-width: 2;
+      marker-end: url(#arrowhead);
+    }
+  </style>
+
+  <rect x="300" y="50" width="200" height="60" class="component" />
+  <text x="400" y="85" class="text">Behavior Tree</text>
+
+  <rect x="50" y="200" width="150" height="60" class="server" />
+  <text x="125" y="235" class="text">Planner Server</text>
+
+  <rect x="325" y="200" width="150" height="60" class="server" />
+  <text x="400" y="235" class="text">Controller Server</text>
+
+  <rect x="600" y="200" width="150" height="60" class="server" />
+  <text x="675" y="235" class="text">Recovery Server</text>
+  
+  <line x1="400" y1="110" x2="125" y2="200" class="arrow" />
+  <line x1="400" y1="110" x2="400" y2="200" class="arrow" />
+  <line x1="400" y1="110" x2="675" y2="200" class="arrow" />
+  
+  <text x="250" y="150" class="label">Goal</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>

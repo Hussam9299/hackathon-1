@@ -1,0 +1,62 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .component {
+      stroke: #333;
+      stroke-width: 2;
+      fill: #4CAF50;
+      rx: 10;
+      ry: 10;
+    }
+    .text {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      text-anchor: middle;
+      fill: #fff;
+    }
+    .label {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      text-anchor: middle;
+      fill: #333;
+    }
+    .arrow {
+      stroke: #333;
+      stroke-width: 2;
+      marker-end: url(#arrowhead);
+    }
+  </style>
+
+  <rect x="50" y="50" width="150" height="60" class="component" />
+  <text x="125" y="85" class="text">Speech-to-Text</text>
+  <text x="125" y="30" class="label">User Command</text>
+  
+  <rect x="325" y="50" width="150" height="60" class="component" />
+  <text x="400" y="85" class="text">LLM Planner</text>
+
+  <rect x="600" y="50" width="150" height="60" class="component" />
+  <text x="675" y="85" class="text">Action Executor</text>
+
+  <rect x="325" y="250" width="150" height="60" class="component" />
+  <text x="400" y="285" class="text">Perception</text>
+  
+  <rect x="600" y="250" width="150" height="60" class="component" />
+  <text x="675" y="285" class="text">Robot Controllers</text>
+
+  <line x1="200" y1="80" x2="325" y2="80" class="arrow" />
+  <text x="262.5" y="70" class="label">Text</text>
+  
+  <line x1="475" y1="80" x2="600" y2="80" class="arrow" />
+  <text x="537.5" y="70" class="label">Plan</text>
+
+  <line x1="400" y1="110" x2="400" y2="250" class="arrow" />
+  <text x="430" y="180" class="label">World State</text>
+
+  <line x1="675" y1="110" x2="675" y2="250" class="arrow" />
+  <text x="710" y="180" class="label">ROS 2 Actions</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>

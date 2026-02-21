@@ -1,0 +1,37 @@
+<svg width="600" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Unity -->
+  <rect x="50" y="50" width="200" height="150" fill="#aee2d9" stroke="black"/>
+  <text x="110" y="75" font-weight="bold">Unity Editor/Game</text>
+
+  <!-- Robot Model in Unity -->
+  <rect x="70" y="90" width="160" height="40" fill="#c0f0e0" stroke="black"/>
+  <text x="80" y="115">Robot Model (Digital Twin)</text>
+
+  <!-- Unity ROSConnection -->
+  <rect x="70" y="150" width="160" height="40" fill="#c0f0e0" stroke="black"/>
+  <text x="80" y="175">ROSConnection (C#)</text>
+
+  <!-- ROS 2 System -->
+  <rect x="350" y="50" width="200" height="150" fill="#f08080" stroke="black"/>
+  <text x="400" y="75" font-weight="bold">ROS 2 System</text>
+
+  <!-- ROS 2 Nodes -->
+  <rect x="370" y="90" width="160" height="40" fill="#ffb6c1" stroke="black"/>
+  <text x="380" y="115">ROS 2 Nodes (Publishers/Subscribers)</text>
+
+  <!-- ros_tcp_endpoint -->
+  <rect x="370" y="150" width="160" height="40" fill="#ffb6c1" stroke="black"/>
+  <text x="380" y="175">ros_tcp_endpoint (ROS 2 Bridge)</text>
+
+  <!-- Arrows -->
+  <line x1="250" y1="160" x2="350" y2="160" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="270" y="150" fill="black">TCP/IP</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+        markerWidth="6" markerHeight="6"
+        orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+  </defs>
+</svg>

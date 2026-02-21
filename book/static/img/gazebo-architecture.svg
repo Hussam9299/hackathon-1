@@ -1,0 +1,51 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gazebo Simulator -->
+  <rect x="50" y="50" width="200" height="200" fill="#add8e6" stroke="black"/>
+  <text x="100" y="75" font-weight="bold">Gazebo Simulator</text>
+
+  <!-- Gazebo World -->
+  <rect x="70" y="90" width="160" height="40" fill="#e6e6fa" stroke="black"/>
+  <text x="100" y="115">Gazebo World</text>
+
+  <!-- Robot Model -->
+  <rect x="70" y="150" width="160" height="40" fill="#f0e68c" stroke="black"/>
+  <text x="100" y="175">Robot Model (URDF/SDF)</text>
+
+  <!-- Physics Engine -->
+  <rect x="70" y="210" width="160" height="40" fill="#90ee90" stroke="black"/>
+  <text x="100" y="235">Physics Engine</text>
+
+  <!-- ROS 2 Nodes -->
+  <rect x="350" y="50" width="200" height="200" fill="#f08080" stroke="black"/>
+  <text x="400" y="75" font-weight="bold">ROS 2 Nodes</text>
+
+  <!-- Robot State Publisher -->
+  <rect x="370" y="90" width="160" height="40" fill="#ffb6c1" stroke="black"/>
+  <text x="380" y="115">Robot State Publisher</text>
+
+  <!-- Controller Node -->
+  <rect x="370" y="150" width="160" height="40" fill="#ffb6c1" stroke="black"/>
+  <text x="380" y="175">Controller Node</text>
+
+  <!-- Sensor Data Node -->
+  <rect x="370" y="210" width="160" height="40" fill="#ffb6c1" stroke="black"/>
+  <text x="380" y="235">Sensor Data Node</text>
+
+  <!-- Arrows -->
+  <line x1="250" y1="170" x2="350" y2="170" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="270" y="160" fill="black">Commands</text>
+
+  <line x1="350" y1="130" x2="250" y2="130" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="270" y="120" fill="black">Robot State</text>
+
+  <line x1="250" y1="230" x2="350" y2="230" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="270" y="220" fill="black">Sensor Data</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+        markerWidth="6" markerHeight="6"
+        orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+  </defs>
+</svg>
