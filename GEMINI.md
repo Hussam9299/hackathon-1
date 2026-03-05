@@ -11,6 +11,8 @@ Auto-generated from all feature plans. Last updated: 2025-12-13
 
 - Python 3.8+ (for ROS 2 Humble/Foxy) + Docusaurus v3, ROS 2 Humble/Foxy, rclpy (1-ros2-control-module)
 
+- Cohere, Qdrant, uv, Python 3.8+ (6-embedding-ingestion-pipeline)
+
 ## Project Structure
 
 ```text
@@ -47,6 +49,8 @@ Python 3.8+ (for ROS 2 Humble/Foxy): Follow standard conventions
 - 005-vision-language-action: Added OpenAI API
 
 - 1-ros2-control-module: Added Python 3.8+ (for ROS 2 Humble/Foxy) + Docusaurus v3, ROS 2 Humble/Foxy, rclpy
+
+- 6-embedding-ingestion-pipeline: Added Cohere, Qdrant, uv
 
 <!-- MANUAL ADDITIONS START -->
 <!-- MANUAL ADDITIONS END -->
