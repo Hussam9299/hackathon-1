@@ -1,6 +1,4 @@
 {
-  "buildCommand": "cd book && npm run build",
-  "outputDirectory": "book/build",
-  "installCommand": "cd book && npm install",
-  "framework": "docusaurus-2"
+  "framework": "docusaurus-2",
+  "rootDirectory": "book"
 }

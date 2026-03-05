@@ -11,7 +11,7 @@ const config: Config = {
   url: 'https://Hussam9299.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/hackathon-1/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -124,15 +124,15 @@ const config: Config = {
           items: [
             {
               label: 'Intro to Isaac Sim',
-              to: '/docs/module3-nvidia-isaac/1-introduction-to-isaac-sim',
+              to: '/docs/module3-nvidia-isaac/introduction-to-isaac-sim',
             },
             {
               label: 'Perception (Isaac ROS)',
-              to: '/docs/module3-nvidia-isaac/2-perception-with-isaac-ros',
+              to: '/docs/module3-nvidia-isaac/perception-with-isaac-ros',
             },
             {
               label: 'Navigation (Nav2)',
-              to: '/docs/module3-nvidia-isaac/3-navigation-with-nav2',
+              to: '/docs/module3-nvidia-isaac/navigation-with-nav2',
             },
           ],
         },
@@ -141,15 +141,15 @@ const config: Config = {
           items: [
             {
               label: 'VLA Architecture',
-              to: '/docs/module4-vla/1-vla-architecture',
+              to: '/docs/module4-vla/vla-architecture',
             },
             {
               label: 'LLM Planning',
-              to: '/docs/module4-vla/2-llm-planning',
+              to: '/docs/module4-vla/llm-planning',
             },
             {
               label: 'Capstone Project',
-              to: '/docs/module4-vla/3-capstone-project',
+              to: '/docs/module4-vla/capstone-project',
             },
           ],
         },
