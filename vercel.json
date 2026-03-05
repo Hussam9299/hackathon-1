@@ -1,4 +1,6 @@
 {
   "framework": "docusaurus-2",
-  "rootDirectory": "book"
+  "buildCommand": "npm run build --prefix book",
+  "outputDirectory": "book/build",
+  "installCommand": "npm install --prefix book"
 }
